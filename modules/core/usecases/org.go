@@ -6,13 +6,13 @@ import (
 	"context"
 	"errors"
 
-	"github.com/dzungtran/echo-rest-api/modules/core/domains"
-	"github.com/dzungtran/echo-rest-api/modules/core/dto"
-	"github.com/dzungtran/echo-rest-api/modules/core/repositories"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	"github.com/dzungtran/echo-rest-api/pkg/cue"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"github.com/kryptonpust/go-echo-test/modules/core/domains"
+	"github.com/kryptonpust/go-echo-test/modules/core/dto"
+	"github.com/kryptonpust/go-echo-test/modules/core/repositories"
+	"github.com/kryptonpust/go-echo-test/pkg/contexts"
+	"github.com/kryptonpust/go-echo-test/pkg/cue"
+	sqlTools "github.com/kryptonpust/go-echo-test/pkg/sql-tools"
+	"github.com/kryptonpust/go-echo-test/pkg/utils"
 	"github.com/jinzhu/copier"
 )
 

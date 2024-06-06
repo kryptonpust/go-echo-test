@@ -6,12 +6,12 @@ import (
 	"errors"
 
 	"github.com/Masterminds/squirrel"
-	"github.com/dzungtran/echo-rest-api/infrastructure/datastore"
-	"github.com/dzungtran/echo-rest-api/modules/projects/domains"
-	"github.com/dzungtran/echo-rest-api/pkg/constants"
-	"github.com/dzungtran/echo-rest-api/pkg/contexts"
-	sqlTools "github.com/dzungtran/echo-rest-api/pkg/sql-tools"
-	"github.com/dzungtran/echo-rest-api/pkg/utils"
+	"github.com/kryptonpust/go-echo-test/infrastructure/datastore"
+	"github.com/kryptonpust/go-echo-test/modules/projects/domains"
+	"github.com/kryptonpust/go-echo-test/pkg/constants"
+	"github.com/kryptonpust/go-echo-test/pkg/contexts"
+	sqlTools "github.com/kryptonpust/go-echo-test/pkg/sql-tools"
+	"github.com/kryptonpust/go-echo-test/pkg/utils"
 	"github.com/jmoiron/sqlx"
 )
 

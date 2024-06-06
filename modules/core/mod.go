@@ -1,11 +1,11 @@
 package core
 
 import (
-	"github.com/dzungtran/echo-rest-api/config"
-	"github.com/dzungtran/echo-rest-api/modules/core/handlers"
-	"github.com/dzungtran/echo-rest-api/modules/core/repositories"
-	"github.com/dzungtran/echo-rest-api/modules/core/usecases"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
+	"github.com/kryptonpust/go-echo-test/config"
+	"github.com/kryptonpust/go-echo-test/modules/core/handlers"
+	"github.com/kryptonpust/go-echo-test/modules/core/repositories"
+	"github.com/kryptonpust/go-echo-test/modules/core/usecases"
+	"github.com/kryptonpust/go-echo-test/pkg/middlewares"
 	"github.com/labstack/echo/v4"
 	"go.uber.org/dig"
 )
