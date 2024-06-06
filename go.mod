@@ -1,4 +1,4 @@
-module github.com/dzungtran/echo-rest-api
+module github.com/kryptonpust/go-echo-test
 
 go 1.21
 

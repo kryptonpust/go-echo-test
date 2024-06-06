@@ -1,11 +1,11 @@
 package projects
 
 import (
-	"github.com/dzungtran/echo-rest-api/modules/core"
-	"github.com/dzungtran/echo-rest-api/modules/projects/handlers"
-	"github.com/dzungtran/echo-rest-api/modules/projects/repositories"
-	"github.com/dzungtran/echo-rest-api/modules/projects/usecases"
-	"github.com/dzungtran/echo-rest-api/pkg/middlewares"
+	"github.com/kryptonpust/go-echo-test/modules/core"
+	"github.com/kryptonpust/go-echo-test/modules/projects/handlers"
+	"github.com/kryptonpust/go-echo-test/modules/projects/repositories"
+	"github.com/kryptonpust/go-echo-test/modules/projects/usecases"
+	"github.com/kryptonpust/go-echo-test/pkg/middlewares"
 	"github.com/labstack/echo/v4"
 	"go.uber.org/dig"
 )
